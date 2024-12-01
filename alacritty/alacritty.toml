@@ -1,0 +1,30 @@
+import = ["~/.config/alacritty/catppuccin-mocha.toml"]
+
+[env]
+
+TERM = "xterm-256color"
+
+[window]
+
+opacity = 0.975
+
+padding.x = 40
+padding.y = 40
+
+decorations = "transparent"
+decorations_theme_variant = "Dark"
+
+[font]
+
+normal.family = "JetBrainsMono NFM"
+bold.family = "JetBrainsMono NFM"
+italic.family = "JetBrainsMono NFM"
+bold_italic.family = "JetBrainsMono NFM"
+
+size = 14.0
+
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+]
