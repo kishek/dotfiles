@@ -1,3 +1,5 @@
+[general]
+
 import = ["~/.config/alacritty/catppuccin-mocha.toml"]
 
 [env]
@@ -26,5 +28,5 @@ size = 14.0
 [keyboard]
 bindings = [
   { key = "Right", mods = "Alt", chars = "\u001BF" },
-  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+  { key = "Left", mods = "Alt", chars = "\u001BB" },
 ]
