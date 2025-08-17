@@ -8,4 +8,6 @@ yarn/
 zed/
 tmux/plugins/
 baselime/
+atlassian-cli/
 gh/
+.DS_Store
